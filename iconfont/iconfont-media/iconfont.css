@@ -1,0 +1,59 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1476407105'); /* IE9*/
+  src: url('iconfont.eot?t=1476407105#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1476407105') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1476407105') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont-eye-open:before { content: "\e42d"; }
+.iconfont-eye-close:before { content: "\e42c"; }
+.iconfont-star:before { content: "\e425"; }
+.iconfont-star-empty:before { content: "\e422"; }
+.iconfont-film:before { content: "\e402"; }
+.iconfont-camera:before { content: "\e418"; }
+.iconfont-video:before { content: "\e412"; }
+.iconfont-hdd:before { content: "\e423"; }
+.iconfont-cd:before { content: "\e416"; }
+.iconfont-glasses:before { content: "\e41c"; }
+.iconfont-play:before { content: "\e415"; }
+.iconfont-stop:before { content: "\e40d"; }
+.iconfont-step-forward:before { content: "\e414"; }
+.iconfont-forward:before { content: "\e40c"; }
+.iconfont-fast-forward:before { content: "\e410"; }
+.iconfont-step-backward:before { content: "\e40b"; }
+.iconfont-backward:before { content: "\e40f"; }
+.iconfont-fast-backward:before { content: "\e408"; }
+.iconfont-pause:before { content: "\e40e"; }
+.iconfont-off:before { content: "\e411"; }
+.iconfont-eject:before { content: "\e40a"; }
+.iconfont-record:before { content: "\e417"; }
+.iconfont-play-circle:before { content: "\e41b"; }
+.iconfont-screenshot:before { content: "\e419"; }
+.iconfont-fullscreen:before { content: "\e401"; }
+.iconfont-resize-full:before { content: "\e427"; }
+.iconfont-resize-small:before { content: "\e429"; }
+.iconfont-resize-vertical:before { content: "\e42a"; }
+.iconfont-resize-horizontal:before { content: "\e428"; }
+.iconfont-adjust:before { content: "\e41d"; }
+.iconfont-tint:before { content: "\e421"; }
+.iconfont-leaf:before { content: "\e426"; }
+.iconfont-tree-coco:before { content: "\e42e"; }
+.iconfont-zoom-in:before { content: "\e413"; }
+.iconfont-zoom-out:before { content: "\e409"; }
+.iconfont-switch:before { content: "\e42b"; }
+.iconfont-send:before { content: "\e424"; }
+.iconfont-music:before { content: "\e407"; }
+.iconfont-headphones:before { content: "\e406"; }
+.iconfont-volume:before { content: "\e400"; }
+.iconfont-volume-off:before { content: "\e403"; }
+.iconfont-volume-up:before { content: "\e405"; }
+.iconfont-volume-down:before { content: "\e404"; }

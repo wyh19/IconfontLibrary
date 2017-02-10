@@ -1,0 +1,50 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1476343808'); /* IE9*/
+  src: url('iconfont.eot?t=1476343808#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1476343808') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1476343808') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont-mac:before { content: "\e820"; }
+.iconfont-windows:before { content: "\e821"; }
+.iconfont-ios:before { content: "\e803"; }
+.iconfont-android:before { content: "\e80e"; }
+.iconfont-dotnet:before { content: "\e804"; }
+.iconfont-java:before { content: "\e80b"; }
+.iconfont-php:before { content: "\e800"; }
+.iconfont-C:before { content: "\e810"; }
+.iconfont-html5:before { content: "\e806"; }
+.iconfont-bootstrap:before { content: "\e802"; }
+.iconfont-ruby:before { content: "\e801"; }
+.iconfont-python:before { content: "\e805"; }
+.iconfont-js:before { content: "\e80a"; }
+.iconfont-css:before { content: "\e80d"; }
+.iconfont-jquery:before { content: "\e80c"; }
+.iconfont-html:before { content: "\e809"; }
+.iconfont-code-tabel:before { content: "\e80f"; }
+.iconfont-code:before { content: "\e807"; }
+.iconfont-code-build:before { content: "\e808"; }
+.iconfont-ie:before { content: "\e81e"; }
+.iconfont-chrome:before { content: "\e81c"; }
+.iconfont-firefox:before { content: "\e81f"; }
+.iconfont-safari:before { content: "\e81d"; }
+.iconfont-host:before { content: "\e811"; }
+.iconfont-host-group:before { content: "\e818"; }
+.iconfont-host-cloud:before { content: "\e816"; }
+.iconfont-mouse:before { content: "\e812"; }
+.iconfont-keyboard:before { content: "\e81b"; }
+.iconfont-pointer:before { content: "\e81a"; }
+.iconfont-click:before { content: "\e817"; }
+.iconfont-dbclick:before { content: "\e815"; }
+.iconfont-password:before { content: "\e813"; }
+.iconfont-unlock:before { content: "\e819"; }
+.iconfont-key:before { content: "\e814"; }

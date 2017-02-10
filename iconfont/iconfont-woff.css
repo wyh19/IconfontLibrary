@@ -1,0 +1,93 @@
+@import url(iconfont-base/iconfont-woff.css);
+@import url(iconfont-data/iconfont-woff.css);
+@import url(iconfont-develop/iconfont-woff.css);
+@import url(iconfont-engineer/iconfont-woff.css);
+@import url(iconfont-media/iconfont-woff.css);
+@import url(iconfont-mobile/iconfont-woff.css);
+@import url(iconfont-text/iconfont-woff.css);
+@import url(iconfont-weather/iconfont-woff.css);
+
+.selectorWrapper {
+    background-color: #111;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+
+.selectorPanel {
+    position: absolute;
+    background-color: #111;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    z-index: 10000;
+    display: none;
+}
+
+.selectorPanel-tab {
+    float: left;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectorPanel-btn {
+    float: left;
+    background-color: #c05050;
+    margin: 5px;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectorPanel-tab-active {
+    background-color: #07a2a4;
+    color: #fff;
+}
+
+.selectorPanel-typeHead {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+}
+
+.selectorPanel-typeTabs {
+    float: left;
+    height: 44px;
+}
+
+.selectorPanel-iconList {
+    float: left;
+    overflow-y: auto;
+}
+
+.selectorPanel-iconLi {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.selectorPanel-iconLi-active {
+    border-radius: 3px;
+    background-color: #07a2a4;
+    color: #fff;
+}
+
+.selectorPanel-iconLi > .iconfont {
+    font-size: 30px;
+}
+
+.selectorPanel-iconName {
+    font-size: 12px;
+    color: #ffb980;
+}

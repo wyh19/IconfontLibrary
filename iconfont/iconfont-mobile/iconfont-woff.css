@@ -1,0 +1,57 @@
+
+@font-face {font-family: "iconfont";
+  src:url('iconfont.woff?t=1476410765') format('woff') /* chrome, firefox */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont-wifi:before { content: "\e136"; }
+.iconfont-3g:before { content: "\e133"; }
+.iconfont-4g:before { content: "\e134"; }
+.iconfont-config:before { content: "\e137"; }
+.iconfont-earphone:before { content: "\e138"; }
+.iconfont-voice:before { content: "\e11f"; }
+.iconfont-qq:before { content: "\e125"; }
+.iconfont-wechat:before { content: "\e124"; }
+.iconfont-weibo:before { content: "\e126"; }
+.iconfont-pay:before { content: "\e118"; }
+.iconfont-face:before { content: "\e119"; }
+.iconfont-404:before { content: "\e112"; }
+.iconfont-cash:before { content: "\e120"; }
+.iconfont-bank:before { content: "\e123"; }
+.iconfont-credit-card:before { content: "\e11d"; }
+.iconfont-slot-card:before { content: "\e11e"; }
+.iconfont-privacy:before { content: "\e11a"; }
+.iconfont-log:before { content: "\e11c"; }
+.iconfont-log-book:before { content: "\e122"; }
+.iconfont-log-write:before { content: "\e114"; }
+.iconfont-address-book:before { content: "\e104"; }
+.iconfont-address-book2:before { content: "\e105"; }
+.iconfont-album:before { content: "\e109"; }
+.iconfont-album2:before { content: "\e10c"; }
+.iconfont-purse:before { content: "\e10d"; }
+.iconfont-card-bag:before { content: "\e10a"; }
+.iconfont-collect:before { content: "\e10b"; }
+.iconfont-find:before { content: "\e108"; }
+.iconfont-star2:before { content: "\e106"; }
+.iconfont-star2-empty:before { content: "\e107"; }
+.iconfont-app2:before { content: "\e116"; }
+.iconfont-add-member:before { content: "\e121"; }
+.iconfont-blacklist:before { content: "\e113"; }
+.iconfont-mass:before { content: "\e117"; }
+.iconfont-mass-account:before { content: "\e10f"; }
+.iconfont-shake:before { content: "\e11b"; }
+.iconfont-shake2:before { content: "\e115"; }
+.iconfont-shock:before { content: "\e110"; }
+.iconfont-logout:before { content: "\e10e"; }
+.iconfont-help-pop:before { content: "\e111"; }
+.iconfont-battery:before { content: "\e101"; }
+.iconfont-battery-full:before { content: "\e103"; }
+.iconfont-battery-high:before { content: "\e102"; }
+.iconfont-battery-charging:before { content: "\e100"; }

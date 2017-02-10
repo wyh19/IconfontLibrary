@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>图标字典</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <link href="iconfont-woff.css" rel="stylesheet" />
+    <script src="data.js"></script>
+</head>
+<body>
+    <script>
+        $(function () {
+            $typeTabs = $('#typeTabs');
+            $iconList = $('#iconList');
+            $typeTabs.append('<div class="tab tab-active">所有</div>');
+            $.each(types, function (i) {
+                $typeTabs.append('<div class="tab">' + types[i] + '</div>');
+                $iconList.append('<div class="typeHead" id="' + types[i] + '">'+
+                        '<div>' + types[i] + '</div>' +
+                    '</div>');
+                $.each(icons[types[i]], function (j) {
+                    $('#' + types[i]).append('<div class = "iconLi">'+
+                            '<div class="iconfont iconfont-' + icons[types[i]][j].clas + '"></div>' +
+                            '<div class="iconName">' + icons[types[i]][j].clas + '</div>' +
+                        '</div>');
+                });
+            });
+            $('.tab').click(function () {
+                var $this = $(this);
+                $this.addClass('tab-active').siblings().removeClass('tab-active');
+                if ($this.html() == '所有') {
+                    $('.typeHead').show();
+                } else {
+                    $('#' + $this.html()).show().siblings().hide();
+                }
+            });
+        });
+    </script>
+    <style>
+        .tab {
+            float: left;
+            width: 80px;
+            border:1px solid #ccc;
+            margin:5px;
+            text-align:center;
+            padding:5px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        .tab-active {
+            background-color:#1033dc;
+            color:#fff;
+        }
+        .typeHead {
+            width:100%;
+            float:left;
+            font-size:30px;
+        }
+         .iconLi {
+            width: 80px;
+            height: 80px;
+            overflow: hidden;
+            float: left;
+            text-align:center;
+        }
+            .iconLi > .iconfont {
+                font-size:30px;
+            }
+        .iconName {
+            font-size:12px;
+        }
+    </style>
+
+    <div id="typeTabs">
+
+    </div>
+
+    <div id="iconList">
+
+    </div>
+</body>
+</html>
